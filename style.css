@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  /* font-size: 10px; */
+  /*  10px / 16px  = 0.625 = 62.5% */
+  /* Percentage of user's browsers font-setting*/
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.container {
+  padding: 0 2.4rem;
+}
+
+/* FLEX*/
+
+.main-nav-link {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  justify-content: space-between;
+}
+.social-icons {
+  display: flex;
+  gap: 1.2rem;
+}
+
+/*  NAViGATION */
+
+.main-nav {
+  margin-top: 1.6rem;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #6070ff;
+}
