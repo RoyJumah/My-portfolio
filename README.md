@@ -8,7 +8,7 @@
 
 ## Built With
 
-- HTNL
+- HTML
 - CSS
 
 
