@@ -47,3 +47,33 @@ body {
 }
 
 /* HERO SECTION */
+
+.section-hero {
+  padding: 2.4rem 0 6.4rem 0;
+}
+
+.hero {
+  padding: 0 3.2rem;
+}
+.header {
+  margin-bottom: 2.4rem;
+}
+
+.heading-primary,
+.hero-description {
+  margin-bottom: 1.8rem;
+}
+
+.heading-primary {
+  font-weight: 700;
+  font-size: 4.2rem;
+  line-height: 3.8rem;
+  color: #172b4d;
+}
+
+.hero-description {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #344563;
+}
