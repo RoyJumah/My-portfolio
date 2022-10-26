@@ -2,18 +2,19 @@
 
 # Project Name
 
-> Description the project.
+
+> My Portfolio.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTNL
+- CSS
 
-## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+## Preview image
+
+![alt text](https://raw.githubusercontent.com/RoyJumah/My-portfolio/c1d02b90c8e0a07e0400c37f678c415fd5169a9e/Images/preview-img.png)
 
 
 ## Getting Started
@@ -24,33 +25,13 @@
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@RoyJumah](https://github.com/RoyJumah)
+- Twitter: [@_royissues](https://twitter.com/_royissues)
+- LinkedIn: [@roy_jumah](www.linkedin.com/in/roy-jumah)
 
 ## 🤝 Contributing
 
@@ -64,12 +45,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- I would like to thank Microverse for providing me with the materials that made it possible to finish this exercise
 
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
