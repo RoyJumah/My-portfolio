@@ -3,10 +3,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 html {
   /* font-size: 10px; */
+
   /*  10px / 16px  = 0.625 = 62.5% */
-  /* Percentage of user's browsers font-setting*/
+
+  /* Percentage of user's browsers font-setting */
   font-size: 62.5%;
 }
 
@@ -20,7 +23,7 @@ body {
   padding: 0 2.4rem;
 }
 
-/* FLEX*/
+/* FLEX */
 
 .main-nav-link {
   display: flex;
@@ -28,6 +31,7 @@ body {
   list-style: none;
   justify-content: space-between;
 }
+
 .social-icons {
   display: flex;
   gap: 1.2rem;
@@ -60,6 +64,7 @@ body {
   padding: 0 3.2rem;
   margin-top: 8.4rem;
 }
+
 .header {
   margin-bottom: 2.4rem;
 }
@@ -91,6 +96,7 @@ body {
   text-transform: uppercase;
   color: #7f8cff;
 }
+
 .social-icon {
   width: 1.8rem;
   height: 1.8rem;
