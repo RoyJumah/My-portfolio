@@ -60,6 +60,7 @@ body {
 }
 
 .heading-primary,
+.heading-secondary,
 .hero-description {
   margin-bottom: 1.8rem;
 }
@@ -76,4 +77,16 @@ body {
   font-size: 1.6rem;
   line-height: 2.4rem;
   color: #344563;
+}
+
+.heading-secondary {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  color: #7f8cff;
+}
+.social-icon {
+  width: 1.8rem;
+  height: 1.8rem;
 }
