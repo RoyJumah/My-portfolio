@@ -5,11 +5,6 @@
 }
 
 html {
-  /* font-size: 10px; */
-
-  /*  10px / 16px  = 0.625 = 62.5% */
-
-  /* Percentage of user's browsers font-setting */
   font-size: 62.5%;
 }
 
@@ -35,6 +30,7 @@ body {
 .social-icons {
   display: flex;
   gap: 1.2rem;
+  list-style: none;
 }
 
 /*  NAViGATION */
@@ -48,11 +44,15 @@ body {
   font-size: 1.6rem;
   line-height: 2rem;
   color: #6070ff;
+  text-decoration: none;
 }
 
 /* HERO SECTION */
 
 .section-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 2.4rem 0 6.4rem 0;
   background-image: url(Images/mobile-background.png);
   background-size: 100% 100%;
@@ -62,7 +62,6 @@ body {
 
 .hero {
   padding: 0 3.2rem;
-  margin-top: 8.4rem;
 }
 
 .header {
