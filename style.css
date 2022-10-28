@@ -141,6 +141,7 @@ a {
   font-size: 1.3rem;
   line-height: 1.6rem;
 }
+
 .languages-list {
   list-style: none;
   display: flex;
@@ -172,6 +173,7 @@ a {
   text-transform: capitalize;
   transition: all 0.3s;
 }
+
 .btn:hover,
 .btn-active {
   color: #fff;
@@ -188,6 +190,7 @@ a {
 .section-img {
   width: 100%;
 }
+
 .portfolio-text {
   display: flex;
   flex-direction: column;
@@ -214,7 +217,6 @@ a {
 
 .section-about {
   padding: 7.2rem 3.2rem;
-
   border-top-right-radius: 80px;
 }
 
@@ -231,12 +233,14 @@ a {
   font-size: 2rem;
   font-weight: 500;
 }
+
 .languages-used {
   display: flex;
   flex-direction: column;
   list-style: none;
   gap: 2rem;
 }
+
 .subheader-icon {
   width: 1.8rem;
   display: block;
