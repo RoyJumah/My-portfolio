@@ -23,7 +23,7 @@
 
 - GitHub: [@RoyJumah](https://github.com/RoyJumah)
 - Twitter: [@_royissues](https://twitter.com/_royissues)
-- LinkedIn: [@roy_jumah](www.linkedin.com/in/roy-jumah)
+- LinkedIn: [@roy_jumah](https://www.linkedin.com/in/roy-jumah/)
 
 ## 🤝 Contributing
 
