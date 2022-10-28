@@ -12,10 +12,23 @@ body {
   font-family: "Poppins", sans-serif;
   line-height: 1;
   font-weight: 400;
+  background-color: #f7f7f7;
+}
+
+main {
+  display: grid;
 }
 
 .container {
   padding: 0 2.4rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.color {
+  background-color: #fff;
 }
 
 /* FLEX */
@@ -53,11 +66,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2.4rem 0 6.4rem 0;
+  padding: 2.4rem 0 9.6rem 0;
   background-image: url(Images/mobile-background.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 100vh;
+  background-color: #fff;
+  border-bottom-left-radius: 80px;
 }
 
 .hero {
@@ -65,7 +80,7 @@ body {
 }
 
 .header {
-  margin-bottom: 2.4rem;
+  padding: 1.2rem;
 }
 
 .heading-primary,
@@ -81,7 +96,8 @@ body {
   color: #172b4d;
 }
 
-.hero-description {
+.hero-description,
+.about-info {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 2.4rem;
@@ -198,6 +214,7 @@ body {
 
 .section-about {
   padding: 7.2rem 3.2rem;
+
   border-top-right-radius: 80px;
 }
 
@@ -245,6 +262,15 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 3.2rem;
+}
+
+.frameworks-skills {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.4rem;
+  border-bottom: 1px solid #e6e6e6;
+  margin: 0;
 }
 
 .margin-section {
