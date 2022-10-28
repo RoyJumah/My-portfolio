@@ -193,3 +193,19 @@ body {
   line-height: 2.4rem;
   color: #344563;
 }
+
+/* Section About  */
+
+.section-about {
+  padding: 7.2rem 3.2rem;
+  border-top-right-radius: 80px;
+}
+
+/* FLEX */
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  align-items: flex-start;
+  justify-content: center;
+}
