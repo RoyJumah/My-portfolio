@@ -124,16 +124,16 @@ a {
   border-radius: 10px;
 }
 
-/* FLEX */
+/* GRID */
 .works {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
+  display: grid;
+  grid-gap: 1.2rem;
   align-items: center;
   justify-content: center;
   padding: 1.6rem;
 }
 
+/* Flex */
 .portfolio-list {
   display: flex;
   gap: 2.4rem;
