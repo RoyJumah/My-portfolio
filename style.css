@@ -209,3 +209,40 @@ body {
   align-items: flex-start;
   justify-content: center;
 }
+
+.subheader {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.languages-used {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 2rem;
+}
+.subheader-icon {
+  width: 1.8rem;
+  display: block;
+}
+
+.language-used {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  gap: 1.6rem;
+  padding: 1.2rem 2rem;
+  background-color: #f7f7f9;
+  border-radius: 8px;
+}
+
+.language-used span {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.subheading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3.2rem;
+}
