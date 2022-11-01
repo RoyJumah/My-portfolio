@@ -25,6 +25,12 @@
 - Twitter: [@_royissues](https://twitter.com/_royissues)
 - LinkedIn: [@roy_jumah](https://www.linkedin.com/in/roy-jumah/)
 
+👤 **Author2**
+
+- GitHub: [@trast00](https://github.com/Trast00)
+- Twitter: [@_allassanedicko](https://twitter.com/AllassaneDicko0)
+- LinkedIn: [@allssane_dicko](https://www.linkedin.com/in/allassane-dicko-744aaa224/?trk=nav_responsive_tab_profile_pic)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
