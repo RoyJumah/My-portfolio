@@ -1,4 +1,5 @@
 @media (min-width: 48em) {
+  /* NAVIGATION */
   .nav-desktop {
     display: block;
   }
@@ -86,5 +87,20 @@
     padding-bottom: 0;
     background-color: rgba(255, 255, 255, 0);
     z-index: 999;
+  }
+
+  /* HERO SECTION */
+
+  .section-hero {
+    background-image: url(../Images/Header\ bg.png);
+    border-bottom-left-radius: 200px;
+  }
+
+  .hero {
+    margin: 0 auto;
+    max-width: 160rem;
+    flex-direction: column;
+    gap: 2.4rem;
+    align-items: flex-start;
   }
 }
