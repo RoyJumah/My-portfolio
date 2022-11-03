@@ -106,7 +106,8 @@
 
   .heading-primary,
   .heading-secondary,
-  .hero-description {
+  .hero-description,
+  .heading-tertiary {
     margin-bottom: 3.2rem;
   }
 
@@ -162,7 +163,9 @@
   .section-img img {
     width: 100%;
   }
-
+  .heading-tertiary {
+    font-size: 4rem;
+  }
   .portfolio-list {
     gap: 3.6rem;
     line-height: 1.6rem;
