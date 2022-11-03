@@ -103,4 +103,35 @@
     gap: 2.4rem;
     align-items: flex-start;
   }
+
+  .heading-primary,
+  .heading-secondary,
+  .hero-description {
+    margin-bottom: 3.2rem;
+  }
+
+  .heading-primary {
+    font-size: 5.2rem;
+    font-weight: 700;
+    letter-spacing: 0.03rem;
+    color: #091e42;
+    line-height: 6rem;
+  }
+  .hero-description,
+  .about-info {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+  }
+
+  .heading-secondary {
+    font-size: 2.2rem;
+  }
+  .social-icons {
+    margin-bottom: 3.2rem;
+  }
+
+  .social-icon {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
 }
