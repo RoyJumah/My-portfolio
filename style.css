@@ -46,6 +46,9 @@ body {
   color: #6070ff;
   text-decoration: none;
 }
+.main-nav-desktop {
+  display: none !important;
+}
 
 /* HERO SECTION */
 
