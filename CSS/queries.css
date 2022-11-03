@@ -11,12 +11,9 @@
     text-decoration: none;
     color: #6070ff;
   }
+
   .main-nav-desktop {
     display: block;
-  }
-
-  .header {
-    padding-bottom: 9.6rem;
   }
 
   .main-nav-link {
@@ -51,6 +48,7 @@
     position: relative;
     padding: 11.2rem;
   }
+
   .sticky,
   .header {
     position: fixed;
@@ -62,10 +60,6 @@
     padding-bottom: 0;
     background-color: #fff;
     z-index: 999;
-  }
-
-  .sticky .section-hero {
-    margin-top: 9.6rem;
   }
 
   /* HERO SECTION */
@@ -111,10 +105,6 @@
   .heading-secondary {
     font-size: 1.6rem;
     line-height: 2.4rem;
-  }
-  .heading-tertiary {
-    line-height: 5.2rem;
-    font-size: 4rem;
   }
 
   .social-icons {
@@ -195,16 +185,10 @@
     border-radius: 8px;
     font-size: 1.7rem;
   }
+
   .btn:hover,
   .btn:active {
     box-shadow: 0 0.8rem 4.8rem rgba(51, 39, 151, 0.349);
-  }
-
-  .section-works:hover,
-  .section-works:active {
-    color: #fff;
-    border: 2px solid #4053fc;
-    box-shadow: 0 2.4rem 4.8rem rgba(120, 147, 184, 0.178);
   }
 
   .section-works {
@@ -212,11 +196,11 @@
     margin: 9.6rem;
   }
 
-  .btn,
-  .btn:link,
-  .btn-visited {
-    padding: 1.8rem;
-    font-size: 2rem;
+  .section-works:hover,
+  .section-works:active {
+    color: #fff;
+    border: 2px solid #4053fc;
+    box-shadow: 0 2.4rem 4.8rem rgba(120, 147, 184, 0.178);
   }
 
   /* ABOUT */
@@ -237,10 +221,12 @@
     width: 80rem;
     height: 60rem;
   }
+
   .about-info {
     font-size: 1.6rem;
     line-height: 2.4rem;
   }
+
   .subheader {
     font-size: 2rem;
     line-height: 2.4rem;
