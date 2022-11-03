@@ -42,6 +42,7 @@ a {
   list-style: none;
   gap: 4.8rem;
   align-items: center;
+  justify-content: space-between;
 }
 
 .social-icons {
@@ -68,6 +69,13 @@ a {
   display: none;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem;
+}
+
 /* HERO SECTION */
 
 .section-hero {
@@ -81,15 +89,10 @@ a {
   padding: 2.4rem 0 9.6rem 0;
   background-color: #fff;
   border-bottom-left-radius: 80px;
-  margin-top: 8rem;
 }
 
 .hero {
   padding: 0 3.2rem;
-}
-
-.header {
-  padding: 1.2rem;
 }
 
 .heading-primary,
