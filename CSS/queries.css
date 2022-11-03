@@ -14,36 +14,6 @@
     text-decoration: none;
     color: #6070ff;
   }
-  .main-nav-list {
-    list-style: none;
-    display: flex;
-    gap: 4.8rem;
-    align-items: center;
-  }
-
-  .main-nav-desktop:link,
-  .main-nav-desktop:visited {
-    display: inline-block;
-    text-decoration: none;
-    text-transform: capitalize;
-    color: #344563;
-    font-weight: 500;
-    font-size: 2rem;
-    transition: all 0.3s;
-  }
-
-  .main-nav-desktop:hover,
-  .main-nav-desktop:active {
-    color: #6070ff;
-  }
-
-  .nav-desktop-class {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 4.8rem 9.6rem 0 9.6rem;
-    position: relative;
-  }
 
   .main-nav-list {
     list-style: none;
@@ -118,6 +88,7 @@
     color: #091e42;
     line-height: 6rem;
   }
+
   .hero-description,
   .about-info {
     font-size: 2.4rem;
@@ -127,6 +98,7 @@
   .heading-secondary {
     font-size: 2.2rem;
   }
+
   .social-icons {
     margin-bottom: 3.2rem;
   }
@@ -135,6 +107,7 @@
     width: 2.4rem;
     height: 2.4rem;
   }
+
   /* WORK SECTION */
 
   .works-desktop {
@@ -163,9 +136,11 @@
   .section-img img {
     width: 100%;
   }
+
   .heading-tertiary {
     font-size: 4rem;
   }
+
   .portfolio-list {
     gap: 3.6rem;
     line-height: 1.6rem;
@@ -176,6 +151,7 @@
   .languages-list {
     margin-bottom: 3.2rem;
   }
+
   .languages-list li {
     font-size: 1.6rem;
     font-weight: 500;
@@ -204,6 +180,7 @@
     text-transform: capitalize;
     box-shadow: 0 0.8rem 4.8rem rgba(51, 39, 151, 0.349);
   }
+
   .clicked-border {
     border: 2px solid #4053fc;
     border-radius: 24px;
@@ -221,6 +198,7 @@
     align-items: center;
     width: 60rem;
   }
+
   .btn,
   .btn:link,
   .btn-visited {
@@ -232,12 +210,6 @@
 
   .section-about {
     border-top-right-radius: 150px;
-  }
-  .about {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 4.8rem;
-    padding: 9.6rem;
   }
 
   .about {
@@ -251,12 +223,15 @@
     width: 80rem;
     height: 60rem;
   }
+
   .subheader {
     font-size: 2.8rem;
   }
+
   .languages {
     padding: 0 9.6rem;
   }
+
   .languages-used {
     flex-direction: row;
     align-items: flex-start;
@@ -268,6 +243,7 @@
     justify-content: flex-start;
     padding: 1.6rem 6.4rem 3.2rem 1.6rem;
   }
+
   .subheading {
     margin-top: 0;
   }
@@ -281,6 +257,7 @@
     background-image: url(../Images/contact-form.png);
     background-size: 100% 100%;
   }
+
   .header-contact-us {
     font-size: 4.4rem;
     line-height: 5.2rem;

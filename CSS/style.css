@@ -63,9 +63,11 @@ a {
   color: #6070ff;
   text-decoration: none;
 }
+
 .nav-desktop {
   display: none;
 }
+
 /* HERO SECTION */
 
 .section-hero {
@@ -143,6 +145,7 @@ a {
 .works-desktop {
   display: none;
 }
+
 /* Flex */
 .portfolio-list {
   display: flex;
@@ -151,9 +154,11 @@ a {
   font-size: 1.3rem;
   line-height: 1.6rem;
 }
+
 .languages-list-desktop {
   display: none;
 }
+
 .languages-list {
   list-style: none;
   display: flex;
@@ -201,10 +206,6 @@ a {
 
 .section-img {
   width: 100%;
-}
-
-.works-desktop {
-  display: none;
 }
 
 .portfolio-text {
