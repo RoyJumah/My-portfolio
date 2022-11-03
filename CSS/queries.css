@@ -43,7 +43,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2.4rem 9.6rem 9.6rem 2.4rem;
+    padding: 9.6rem;
     position: relative;
     margin-bottom: 9.6rem;
   }
@@ -57,7 +57,7 @@
     height: 8rem;
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #fff;
+    height: 9.6rem;
     z-index: 999;
   }
 
@@ -66,6 +66,7 @@
   .section-hero {
     background-image: url(../Images/Header\ bg.png);
     border-bottom-left-radius: 200px;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
