@@ -134,4 +134,32 @@
     width: 2.4rem;
     height: 2.4rem;
   }
+  /* WORK SECTION */
+
+  .works-desktop {
+    display: block;
+  }
+
+  .works {
+    display: none;
+  }
+
+  .grid {
+    display: grid;
+    column-gap: 4.8rem;
+    padding: 4.8rem;
+    align-items: center;
+  }
+
+  .grid:not(:last-child) {
+    margin-bottom: 9.6rem;
+  }
+
+  .grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section-img img {
+    width: 100%;
+  }
 }

@@ -140,6 +140,9 @@ a {
   padding: 1.6rem;
 }
 
+.works-desktop {
+  display: none;
+}
 /* Flex */
 .portfolio-list {
   display: flex;
