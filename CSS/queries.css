@@ -6,4 +6,41 @@
   .main-nav {
     display: none;
   }
+
+  .logo a {
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #6070ff;
+  }
+  .main-nav-list {
+    list-style: none;
+    display: flex;
+    gap: 4.8rem;
+    align-items: center;
+  }
+
+  .main-nav-desktop:link,
+  .main-nav-desktop:visited {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #344563;
+    font-weight: 500;
+    font-size: 2rem;
+    transition: all 0.3s;
+  }
+
+  .main-nav-desktop:hover,
+  .main-nav-desktop:active {
+    color: #6070ff;
+  }
+
+  .nav-desktop-class {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4.8rem 9.6rem 0 9.6rem;
+    position: relative;
+  }
 }
