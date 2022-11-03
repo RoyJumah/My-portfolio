@@ -1,5 +1,6 @@
 @media (min-width: 48em) {
   /* NAVIGATION */
+
   .nav-desktop {
     display: block;
   }
@@ -42,8 +43,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 4.8rem 9.6rem 0 9.6rem;
+    padding: 2.4rem 9.6rem 9.6rem 2.4rem;
     position: relative;
+    margin-bottom: 9.6rem;
   }
 
   .sticky,
@@ -64,14 +66,19 @@
   .section-hero {
     background-image: url(../Images/Header\ bg.png);
     border-bottom-left-radius: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 9.6rem;
+    padding-top: 9.6rem;
   }
 
   .hero {
-    margin: 0 auto;
+    margin: 9.6rem;
     max-width: 160rem;
     flex-direction: column;
     gap: 2.4rem;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .heading-primary,
@@ -167,36 +174,28 @@
     margin-bottom: 2.4rem;
   }
 
-  .btn-click,
-  .btn-click:link,
-  .btn-click:visited {
-    display: inline-block;
+  .btn,
+  .btn:link,
+  .btn:visited {
     padding: 1.8rem;
     border-radius: 8px;
     font-size: 2rem;
-    font-weight: 500;
-    color: #fff;
-    background-color: #4053fc;
-    text-transform: capitalize;
+  }
+  .btn:hover,
+  .btn:active {
     box-shadow: 0 0.8rem 4.8rem rgba(51, 39, 151, 0.349);
   }
 
-  .clicked-border {
+  .section-works:hover,
+  .section-works:active {
+    color: #fff;
     border: 2px solid #4053fc;
-    border-radius: 24px;
     box-shadow: 0 2.4rem 4.8rem rgba(120, 147, 184, 0.178);
   }
 
   .section-works {
     border-radius: 24px;
     margin: 9.6rem;
-  }
-
-  .selected-button {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 60rem;
   }
 
   .btn,
