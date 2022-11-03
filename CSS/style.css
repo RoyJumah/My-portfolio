@@ -39,9 +39,9 @@ a {
 
 .main-nav-link {
   display: flex;
-  padding: 0;
   list-style: none;
-  justify-content: space-between;
+  gap: 4.8rem;
+  align-items: center;
 }
 
 .social-icons {
@@ -64,7 +64,7 @@ a {
   text-decoration: none;
 }
 
-.nav-desktop {
+.main-nav-desktop {
   display: none;
 }
 
@@ -74,13 +74,14 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2.4rem 0 9.6rem 0;
   background-image: url(../Images/mobile-background.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 100vh;
+  padding: 2.4rem 0 9.6rem 0;
   background-color: #fff;
   border-bottom-left-radius: 80px;
+  margin-top: 8rem;
 }
 
 .hero {
