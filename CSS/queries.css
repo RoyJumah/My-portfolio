@@ -268,4 +268,37 @@
   .subheading {
     margin-top: 0;
   }
+
+  /* CONTACT FORM SECTION */
+  .section-contact {
+    border-top-left-radius: 150px;
+  }
+
+  .contact-us {
+    background-image: url(../Images/contact-form.png);
+    background-size: 100% 100%;
+  }
+  .header-contact-us {
+    font-size: 4.4rem;
+    line-height: 5.2rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .my-info {
+    font-size: 2.4rem;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .cta-form {
+    gap: 2.4rem;
+  }
+
+  textarea {
+    height: 15rem;
+  }
+
+  .btn--contact {
+    align-self: center;
+  }
 }
