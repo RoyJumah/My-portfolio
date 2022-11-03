@@ -245,7 +245,6 @@ a {
 .about-class {
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
   align-items: flex-start;
   justify-content: center;
 }
