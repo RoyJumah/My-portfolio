@@ -49,6 +49,7 @@ a {
   display: flex;
   gap: 1.2rem;
   list-style: none;
+  margin-bottom: 1.6rem;
 }
 
 /*  NAViGATION */
@@ -125,8 +126,8 @@ a {
 }
 
 .social-icon {
-  width: 1.8rem;
-  height: 1.8rem;
+  font-size: 1.8rem;
+  color: #344563;
 }
 
 /* Work section */
