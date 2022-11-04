@@ -194,13 +194,14 @@
   .section-works {
     border-radius: 24px;
     margin: 9.6rem;
+    transition: all 0.4s;
   }
 
-  .section-works:hover,
-  .section-works:active {
+  .section-works:hover {
     color: #fff;
     border: 2px solid #4053fc;
     box-shadow: 0 2.4rem 4.8rem rgba(120, 147, 184, 0.178);
+    transform: translateY(-1.2rem);
   }
 
   /* ABOUT */
