@@ -209,7 +209,8 @@ a {
   color: #6070ff;
 }
 
-.section-img {
+.section-img img {
+  border-radius: 24px;
   width: 100%;
 }
 
