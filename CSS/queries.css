@@ -147,8 +147,18 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .section-img {
+    overflow: hidden;
+    border-radius: 16px;
+  }
+
   .section-img img {
     width: 100%;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .section-img img:hover {
+    transform: scale(1.08);
   }
 
   .heading-tertiary {
