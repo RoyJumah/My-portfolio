@@ -109,11 +109,17 @@
 
   .social-icons {
     margin-bottom: 1.6rem;
+    gap: 1.6rem;
   }
 
   .social-icon {
-    width: 2.4rem;
-    height: 2.4rem;
+    font-size: 2.4rem;
+    transition: all 0.3s;
+  }
+
+  .social-icon:hover {
+    transform: scale(1.35);
+    color: #6070ff;
   }
 
   /* WORK SECTION */
@@ -141,8 +147,18 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .section-img {
+    overflow: hidden;
+    border-radius: 24px;
+  }
+
   .section-img img {
     width: 100%;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .section-img img:hover {
+    transform: scale(1.08);
   }
 
   .heading-tertiary {
@@ -194,13 +210,14 @@
   .section-works {
     border-radius: 24px;
     margin: 9.6rem;
+    transition: all 0.4s;
   }
 
-  .section-works:hover,
-  .section-works:active {
+  .section-works:hover {
     color: #fff;
     border: 2px solid #4053fc;
     box-shadow: 0 2.4rem 4.8rem rgba(120, 147, 184, 0.178);
+    transform: translateY(-1.2rem);
   }
 
   /* ABOUT */
