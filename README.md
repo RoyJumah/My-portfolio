@@ -11,7 +11,8 @@
 - HTML
 - CSS
 
-## Live demo link 
+## Live Demo 
+[Live Demo Link](https://royjumah.github.io/My-portfolio/)
 
 ## Preview image
 
