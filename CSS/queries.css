@@ -5,6 +5,10 @@
     display: none;
   }
 
+  *:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(34, 86, 230, 0.377);
+  }
   .logo a {
     font-size: 1.8rem;
     font-weight: 700;
