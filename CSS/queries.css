@@ -1,7 +1,7 @@
 @media (min-width: 48em) {
   /* NAVIGATION */
 
-  .main-nav-mobile {
+  .btn-mobile-nav {
     display: none;
   }
 
@@ -22,11 +22,8 @@
   }
 
   .main-nav-link {
-    display: flex;
-    list-style: none;
-    gap: 4.8rem;
-    align-items: center;
-    justify-content: space-between;
+    /* display: flex;
+    list-style: none; */
   }
 
   .main-nav-desktop:link,
@@ -50,8 +47,8 @@
     align-items: center;
     justify-content: space-between;
     height: 9.6rem;
+    padding: 0 4.8rem;
     position: relative;
-    padding: 11.2rem;
   }
 
   .sticky,
@@ -229,12 +226,11 @@
 
   .section-about {
     border-top-right-radius: 151px;
-    width: 100%;
   }
 
   .about {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
     gap: 2.4rem;
     padding: 9.6rem;
   }
@@ -243,7 +239,9 @@
     width: 80rem;
     height: 60rem;
   }
-
+  .about-left {
+    grid-column: span 4 / span 4;
+  }
   .about-info {
     font-size: 1.6rem;
     line-height: 2.4rem;
@@ -255,7 +253,7 @@
   }
 
   .languages {
-    padding: 0 9.6rem;
+    grid-column: span 8 / span 8;
   }
 
   .languages-used {

@@ -26,16 +26,12 @@
             <li><a class="main-nav-desktop" href="#">portfolio</a></li>
             <li><a class="main-nav-desktop" href="#">about</a></li>
             <li><a class="main-nav-desktop" href="#">contacts</a></li>
-            <li>
-              <a href="#"
-                ><img
-                  class="main-nav-mobile"
-                  src="Images/Union.png"
-                  alt="menu logo"
-              /></a>
-            </li>
           </ul>
         </nav>
+
+        <button class="btn-mobile-nav">
+          <ion-icon class="main-nav-mobile" name="menu-outline"></ion-icon>
+        </button>
       </header>
 
       <section class="section-hero color">
@@ -129,7 +125,7 @@
           </div>
         </div>
 
-        <!-- DESKTOP VERSION -->
+        <!-- Desktop  -->
         <div class="works-desktop grid grid--2-cols">
           <div class="section-img">
             <img
@@ -190,7 +186,6 @@
           </div>
         </div>
 
-        <!-- DESKTOP VERSION -->
         <div class="works-desktop grid grid--2-cols">
           <div class="portfolio-text">
             <h2 class="heading-tertiary">Multi-post-stories</h2>
@@ -342,7 +337,7 @@
       </section>
       <section class="section-about margin-section color">
         <div class="about">
-          <div class="about-class">
+          <div class="about-left">
             <h2 class="heading-tertiary">
               About <br />
               myself
@@ -404,11 +399,21 @@
           <div class="languages">
             <div class="subheading margin-section">
               <h3 class="subheader">Languages</h3>
-              <img
-                class="subheader-icon"
-                src="Images/down-cursor.png"
-                alt="an arrow pointing down"
-              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                class="about-icon"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                />
+              </svg>
             </div>
             <ul class="languages-used">
               <li class="language-used">
@@ -431,12 +436,38 @@
             </ul>
             <div class="frameworks-skills">
               <h3 class="subheader">Frameworks</h3>
-              <img src="Images/side-arrow.png" alt="An arrow pointing right" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6 about-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
             </div>
 
             <div class="frameworks-skills">
               <h3 class="subheader">Skills</h3>
-              <img src="Images/side-arrow.png" alt="An arrow pointing right" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6 about-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
             </div>
           </div>
         </div>
@@ -492,5 +523,6 @@
         </div>
       </footer>
     </main>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
   </body>
 </html>

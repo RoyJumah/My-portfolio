@@ -42,7 +42,6 @@ a {
   list-style: none;
   gap: 4.8rem;
   align-items: center;
-  justify-content: space-between;
 }
 
 .social-icons {
@@ -56,6 +55,12 @@ a {
 
 .main-nav {
   margin-top: 1.6rem;
+}
+
+.main-nav-mobile {
+  height: 3.2rem;
+  width: 3.2rem;
+  color: #333;
 }
 
 .logo {
@@ -77,6 +82,18 @@ a {
   padding: 1.2rem;
 }
 
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.main-nav-mobile {
+  height: 3.2rem;
+  width: 3.2rem;
+  color: #333;
+}
 /* HERO SECTION */
 
 .section-hero {
@@ -263,9 +280,9 @@ a {
   gap: 2rem;
 }
 
-.subheader-icon {
-  width: 1.8rem;
-  display: block;
+.about-icon {
+  height: 2.4rem;
+  width: 2.4rem;
 }
 
 .language-used {
