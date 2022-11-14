@@ -20,10 +20,8 @@
   .main-nav-desktop {
     display: block;
   }
-
   .main-nav-link {
-    /* display: flex;
-    list-style: none; */
+    flex-direction: row;
   }
 
   .main-nav-desktop:link,

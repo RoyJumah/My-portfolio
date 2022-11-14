@@ -6,6 +6,7 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -13,6 +14,7 @@ body {
   line-height: 1;
   font-weight: 400;
   background-color: #f7f7f7;
+  overflow-x: hidden;
 }
 
 main {
@@ -51,10 +53,21 @@ a {
   margin-bottom: 1.6rem;
 }
 
+.main-nav-link {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 4.8rem;
+  align-items: center;
+}
+
 /*  NAViGATION */
 
-.main-nav {
-  margin-top: 1.6rem;
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  z-index: 9999;
 }
 
 .main-nav-mobile {
@@ -69,10 +82,6 @@ a {
   line-height: 2rem;
   color: #6070ff;
   text-decoration: none;
-}
-
-.main-nav-desktop {
-  display: none;
 }
 
 .header {
