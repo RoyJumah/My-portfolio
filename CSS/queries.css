@@ -1,6 +1,6 @@
 @media (max-width: 48em) {
   .main-nav {
-    background-color: hwb(234 19% 30% / 0.8);
+    background-color: rgba(48, 61, 179, 0.8);
     position: absolute;
     top: 0;
     left: 0;
@@ -14,8 +14,9 @@
     padding: 9.6rem 4.8rem;
     pointer-events: none;
     visibility: hidden;
-    backdrop-filter: blur(5px);  
+    backdrop-filter: blur(5px);
   }
+
   .main-nav-desktop:link,
   .main-nav-desktop:visited {
     display: inline-block;
@@ -27,12 +28,15 @@
     transition: all 0.3s;
   }
 
- 
   .nav-open .main-nav {
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
     transform: translateX(0);
+  }
+
+  .main-nav-mobile[name="close-outline"] {
+    display: none;
   }
 
   .nav-open .main-nav-mobile[name="close-outline"] {
@@ -42,13 +46,11 @@
   .nav-open .main-nav-mobile[name="menu-outline"] {
     display: none;
   }
+
   .close-icon {
     height: 3.2rem;
     width: 3.2rem;
     color: #fff;
-  }
-  .main-nav-mobile[name="close-outline"] {
-    display: none;
   }
 }
 
@@ -74,6 +76,7 @@
   .main-nav-desktop {
     display: block;
   }
+
   .main-nav-link {
     flex-direction: row;
   }
@@ -291,9 +294,11 @@
     width: 80rem;
     height: 60rem;
   }
+
   .about-left {
     grid-column: span 4 / span 4;
   }
+
   .about-info {
     font-size: 1.6rem;
     line-height: 2.4rem;

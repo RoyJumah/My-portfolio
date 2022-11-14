@@ -44,7 +44,6 @@ a {
   flex-direction: column;
   list-style: none;
   gap: 4.8rem;
-  align-items: left; 
 }
 
 .social-icons {
@@ -84,6 +83,7 @@ a {
   width: 3.2rem;
   color: #333;
 }
+
 /* HERO SECTION */
 
 .section-hero {
@@ -143,6 +143,7 @@ a {
   margin: 0 2.4rem;
   border-radius: 10px;
 }
+
 /* GRID */
 
 .works {
@@ -152,9 +153,11 @@ a {
   justify-content: center;
   padding: 1.6rem;
 }
+
 .works-desktop {
   display: none;
 }
+
 /* Flex */
 .portfolio-list {
   display: flex;
