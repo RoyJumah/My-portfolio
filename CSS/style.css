@@ -6,6 +6,7 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -13,6 +14,7 @@ body {
   line-height: 1;
   font-weight: 400;
   background-color: #f7f7f7;
+  overflow-x: hidden;
 }
 
 main {
@@ -39,9 +41,9 @@ a {
 
 .main-nav-link {
   display: flex;
+  flex-direction: column;
   list-style: none;
   gap: 4.8rem;
-  align-items: center;
 }
 
 .social-icons {
@@ -53,16 +55,6 @@ a {
 
 /*  NAViGATION */
 
-.main-nav {
-  margin-top: 1.6rem;
-}
-
-.main-nav-mobile {
-  height: 3.2rem;
-  width: 3.2rem;
-  color: #333;
-}
-
 .logo {
   font-weight: 700;
   font-size: 1.6rem;
@@ -71,15 +63,12 @@ a {
   text-decoration: none;
 }
 
-.main-nav-desktop {
-  display: none;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.2rem;
+  position: relative;
 }
 
 .btn-mobile-nav {
@@ -94,6 +83,7 @@ a {
   width: 3.2rem;
   color: #333;
 }
+
 /* HERO SECTION */
 
 .section-hero {
@@ -149,7 +139,7 @@ a {
 
 /* Work section */
 .section-works {
-  border: solid 1px #dfe1e6;
+  border: 1px solid #dfe1e6;
   margin: 0 2.4rem;
   border-radius: 10px;
 }

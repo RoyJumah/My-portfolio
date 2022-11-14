@@ -10,11 +10,24 @@
       rel="stylesheet"
     />
     <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
       src="https://kit.fontawesome.com/a1c06e2fcd.js"
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="CSS/style.css" />
     <link rel="stylesheet" href="CSS/queries.css" />
+    <script
+      defer
+      src=" https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="navigation.js"></script>
   </head>
 
   <body>
@@ -23,14 +36,15 @@
         <a href="#home" class="logo">Roy</a>
         <nav class="main-nav">
           <ul class="main-nav-link">
-            <li><a class="main-nav-desktop" href="#">portfolio</a></li>
-            <li><a class="main-nav-desktop" href="#">about</a></li>
-            <li><a class="main-nav-desktop" href="#">contacts</a></li>
+            <li><a class="main-nav-desktop" href="#works">portfolio</a></li>
+            <li><a class="main-nav-desktop" href="#about">about</a></li>
+            <li><a class="main-nav-desktop" href="#contact">contacts</a></li>
           </ul>
         </nav>
 
         <button class="btn-mobile-nav">
           <ion-icon class="main-nav-mobile" name="menu-outline"></ion-icon>
+          <ion-icon class="main-nav-mobile close-icon" name="close-outline"></ion-icon>
         </button>
       </header>
 
@@ -95,7 +109,7 @@
         </div>
       </section>
 
-      <section class="section-works margin-section color">
+      <section class="section-works margin-section color" id="works">
         <div class="works">
           <div class="section-img">
             <img
@@ -335,7 +349,7 @@
           </div>
         </div>
       </section>
-      <section class="section-about margin-section color">
+      <section class="section-about margin-section color" id="about">
         <div class="about">
           <div class="about-left">
             <h2 class="heading-tertiary">
@@ -472,7 +486,7 @@
           </div>
         </div>
       </section>
-      <footer class="section-contact">
+      <footer class="section-contact" id="contact">
         <div class="contact-us">
           <div class="about-text">
             <h2 class="header-contact-us center-v">Contact me</h2>
@@ -523,6 +537,5 @@
         </div>
       </footer>
     </main>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
   </body>
 </html>
