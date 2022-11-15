@@ -1,35 +1,39 @@
 // Making mobile navigation work
 
-const btnNavEl = document.querySelector('.btn-mobile-nav');
-const headerEl = document.querySelector('.header');
+const btnNavEl = document.querySelector(".btn-mobile-nav");
+const headerEl = document.querySelector(".header");
 
-btnNavEl.addEventListener('click', () => {
-  headerEl.classList.toggle('nav-open');
+btnNavEl.addEventListener("click", () => {
+  headerEl.classList.toggle("nav-open");
+  // document.body.style.overflowY = "hidden";
 });
 
 // Smooth scrolling
-const alllinks = document.querySelectorAll('a:link');
+const alllinks = document.querySelectorAll("a:link");
 alllinks.forEach((link) => {
-  link.addEventListener('click', (e) => {
+  link.addEventListener("click", (e) => {
     e.preventDefault();
-    const href = link.getAttribute('href');
+    const href = link.getAttribute("href");
 
     // Scrolling to other links
 
-    if (href === '#') {
+    if (href === "#") {
       window.scrollTo({
         top: 0,
-        behavior: 'smooth',
+        behavior: "smooth",
       });
     }
 
-    if (href !== '#' && href.startsWith('#')) {
+    if (href !== "#" && href.startsWith("#")) {
       const sectionEl = document.querySelector(href);
-      sectionEl.scrollIntoView({ behavior: 'smooth' });
+      sectionEl.scrollIntoView({ behavior: "smooth" });
+      document.body.style.overflowY = "visible";
     }
 
     // close mobile navigation
 
-    if (link.classList.contains('main-nav-desktop')) { headerEl.classList.toggle('nav-open'); }
+    if (link.classList.contains("main-nav-desktop")) {
+      headerEl.classList.toggle("nav-open");
+    }
   });
 });
