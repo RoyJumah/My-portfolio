@@ -1,12 +1,12 @@
 "use strict";
 
-export const projects = [
+ const projects = [
   {
     name: "Topic",
     feature: "CANOPY",
     background: "Back End Dev",
     year: "2015",
-    image: "project6.png",
+    image: "./images/project6.png",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required.",
     tool1: "html",
@@ -21,7 +21,7 @@ export const projects = [
     feature: "FACEBOOK",
     background: "Full Stack Dev",
     year: "2015",
-    image: "project2.png",
+    image: "./images/project2.png",
     description:
       "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
     tool1: "html",
@@ -36,7 +36,7 @@ export const projects = [
     feature: "FACEBOOK",
     background: "Full Stack Dev",
     year: "2015",
-    image: "project3.png",
+    image: "./images/project3.png",
     description:
       "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     tool1: "html",
@@ -50,7 +50,7 @@ export const projects = [
     feature: "Uber",
     background: "Lead Developer",
     year: "2018",
-    image: "project4.png",
+    image: "./images/project4.png",
     description:
       "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
     tool1: "html",
@@ -63,7 +63,7 @@ export const projects = [
 
 const startingPoint = document.querySelector("main");
 
-export function createModal() {
+ function createModal() {
   startingPoint.insertAdjacentHTML(
     "afterend",
     `<div class='overlay'>
