@@ -68,35 +68,30 @@ function createModal() {
     "afterend",
     `<div class='overlay'>
     <section class='modal'>
-    <div class='modal-header flex'>
-    <h2 class='project-name title fw-700 fz-32 lh-44 clr-n-800'></h2>
+    <div class='modal-header'>
+    <h2 class='project-name title'></h2>
     <button class="closeModal">&times;</button>
     </div>
-    <div class='modal__feature flex'>
-    <ul class=" portfolio-list flex">
-    <p class="project-feature fw-600 fz-13 lh-16 clr-n-600 list-unstyled"></p>
-    <li class=" project-background fw-600 fz-13 lh-16 clr-n-500"></li>
-    <li class="project-year fw-600 fz-13 lh-16 clr-n-500"> </li>
-    </ul></div>
-    <div class='image-project'><img class='modal__image project-image' src='' alt='project image'></img></div>
-    <ul class='modal__dsc ul flex'>
-    <p class='modal__dsc__first'><p class='project-description portfolio-info fw-400 fz-15 lh-24 clr-n-600'></p></p>
-    
-    <ul class='languages-list'>
-    <li class="project-tool1 fw-500 fz-12 lh-16 clr-p-400 bg-p-50"></li>
-    <li class="project-tool2 fw-500 fz-12 lh-16 clr-p-400 bg-p-50"></li>
-    <li class="project-tool3 fw-500 fz-12 lh-16 clr-p-400 bg-p-50"></li>
+    <ul class='modal__feature portfolio-list'>
+    <li class="project-feature name"></li>
+    <li class=" project-background"></li>
+    <li class="project-year"> </li>
     </ul>
-
-    
-    <div class=" btn-wrapper">
-    <a href='' class="btn link project-linkLive fw-500 fz-17 lh-24 clr-p-500 bg-white">See Live</a>
-    
-    
-    <a href='' class="btn link project-linkSource fw-500 fz-17 lh-24 clr-p-500 bg-white">See Source</a>
-    
-    
-
+    <div class='image-project'><img class='modal__image project-image' src='' alt='project image'></img></div>
+    <div class='modal__dsc '>
+    <p class='modal__dsc__first'><p class='project-description portfolio-info fw-400 fz-15 lh-24 clr-n-600'></p></p>
+  <div>
+    <ul class='languages-list margin-top'>
+    <li class="project-tool1"></li>
+    <li class="project-tool2"></li>
+    <li class="project-tool3"></li>
+    </ul>
+    <div class=" btn-wrapper margin-top">
+    <a href='' class="btn link project-linkLive">See Live</a>
+    <a href='' class="btn link project-linkSource">See Source</a>
+    </div>
+    </div>
+    </div>
     </section>
     </div>`
   );
