@@ -385,6 +385,12 @@
     transition: all 0.4s ease-in-out;
   }
 
+  .modal__header img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+
   .section-img img:hover {
     transform: scale(1.08);
   }
