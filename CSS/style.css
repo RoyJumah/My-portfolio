@@ -6,9 +6,6 @@
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
-
-  /* overflow-y: visible; */
 }
 
 body {
@@ -16,9 +13,6 @@ body {
   line-height: 1;
   font-weight: 400;
   background-color: #f7f7f7;
-  overflow-x: hidden;
-
-  /* overflow-y: visible; */
 }
 
 main {
