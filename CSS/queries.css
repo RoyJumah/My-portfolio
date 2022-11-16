@@ -153,6 +153,7 @@
     z-index: 200;
     backdrop-filter: blur(5px);
   }
+
   .overlay.active {
     visibility: visible;
     transform: scale(1);
@@ -163,6 +164,7 @@
   .margin-top {
     margin-top: 1.2rem;
   }
+
   .modal-header {
     padding: 5px;
     display: flex;
@@ -556,19 +558,9 @@
     justify-content: space-between;
   }
 
-  .modal__header img {
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-  }
-
   .modal__image {
     width: 100%;
     margin: 1rem 0;
-  }
-
-  .modal__dsc {
-    flex-direction: column;
   }
 
   .modal__dsc__first {
@@ -653,6 +645,7 @@
     font-size: 2rem;
     font-weight: bold;
   }
+
   .btn-wrapper {
     display: flex;
     gap: 1.2rem;
@@ -670,6 +663,7 @@
   .modal__feature {
     padding: 10px 15px;
   }
+
   .modal__dsc {
     display: flex;
     flex-direction: row;
