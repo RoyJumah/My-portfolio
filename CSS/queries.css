@@ -17,6 +17,13 @@
     backdrop-filter: blur(5px);
   }
 
+  .languages-list li {
+    padding: 4px 12px;
+    background-color: #ebebff;
+    border-radius: 8px;
+    color: #6070ff;
+  }
+
   .main-nav-desktop:link,
   .main-nav-desktop:visited {
     display: inline-block;
@@ -51,6 +58,178 @@
     height: 3.2rem;
     width: 3.2rem;
     color: #fff;
+  }
+
+  .modal {
+    background: #fff;
+    padding: 1.5rem;
+    width: 90%;
+    opacity: 0;
+    visibility: hidden;
+    transition: transform 1s, opacity 1s, visibility 0s;
+    z-index: 300;
+    margin: 0 3.5rem;
+  }
+
+  .modal__header {
+    justify-content: space-between;
+  }
+
+  .modal__header img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .modal__image {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .modal__dsc {
+    flex-direction: column;
+  }
+
+  .modal__dsc__first {
+    margin: 0.7rem 0;
+  }
+
+  .modal__dsc__second {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .modal__dsc__second div {
+    margin: 1rem 0;
+  }
+
+  .modal__dsc__second p {
+    padding: 4px 12px;
+    border-radius: 8px;
+    margin-right: 0.5rem;
+  }
+
+  .modal__btn {
+    margin: 1rem 0;
+  }
+
+  .modal__btn li a {
+    border: 1px solid #6070ff;
+    padding: 0.6rem 1.5vw;
+    border-radius: 8px;
+    margin-right: 0.5rem;
+  }
+
+  .modal__feature ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .modal__feature ul li {
+    margin-left: 1.5rem;
+  }
+
+  .modal.active {
+    visibility: visible;
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 1s, transform 1s, visibility 0s;
+    transform: scale(0);
+    background: rgba(193, 199, 208, 0.5);
+    z-index: 200;
+    backdrop-filter: blur(5px);
+  }
+  .overlay.active {
+    visibility: visible;
+    transform: scale(1);
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .margin-top {
+    margin-top: 1.2rem;
+  }
+  .modal-header {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .closeModal {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 2.5rem;
+    font-weight: normal;
+  }
+
+  .modal__feature {
+    padding: 10px 15px;
+  }
+
+  .btn-wrapper {
+    display: flex;
+    gap: 1.2rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .modal {
+    width: 60%;
+    margin: 0 9.6rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .modal {
+    width: 70%;
+    margin: 0 9.6rem;
+  }
+
+  .modal .image-project {
+    margin-inline: auto;
+    width: 70%;
+  }
+
+  .modal__image {
+    width: 100%;
+  }
+
+  .modal__dsc {
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .modal {
+    width: 60%;
+  }
+
+  .modal .image-project {
+    margin-inline: auto;
+    width: 65%;
   }
 }
 
@@ -181,14 +360,6 @@
 
   /* WORK SECTION */
 
-  .works-desktop {
-    display: block;
-  }
-
-  .works {
-    display: none;
-  }
-
   .grid {
     display: grid;
     column-gap: 4.8rem;
@@ -224,7 +395,7 @@
   }
 
   .portfolio-list {
-    gap: 3.6rem;
+    /* gap: 3.6rem; */
     line-height: 2.4rem;
     font-size: 1.8rem;
     margin-bottom: 2.4rem;
@@ -362,5 +533,141 @@
 
   .btn--contact {
     align-self: center;
+  }
+
+  .modal {
+    background: #fff;
+    padding: 1.5rem;
+    width: 50%;
+    opacity: 0;
+    visibility: hidden;
+    transition: transform 1s, opacity 1s, visibility 0s;
+    z-index: 300;
+    margin: 0 9.6rem;
+  }
+
+  .modal__header {
+    justify-content: space-between;
+  }
+
+  .modal__header img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .modal__image {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .modal__dsc {
+    flex-direction: column;
+  }
+
+  .modal__dsc__first {
+    margin: 0.7rem 0;
+  }
+
+  .modal__dsc__second {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .modal__dsc__second div {
+    margin: 1rem 0;
+  }
+
+  .modal__dsc__second p {
+    padding: 4px 12px;
+    border-radius: 8px;
+    margin-right: 0.5rem;
+  }
+
+  .modal__btn {
+    margin: 1rem 0;
+  }
+
+  .modal__btn li a {
+    border: 1px solid #6070ff;
+    padding: 0.6rem 1.5vw;
+    border-radius: 8px;
+    margin-right: 0.5rem;
+  }
+
+  .modal__feature ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .modal__feature ul li {
+    margin-left: 1.5rem;
+  }
+
+  .modal.active {
+    visibility: visible;
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 1s, transform 1s, visibility 0s;
+    transform: scale(0);
+    background: rgba(193, 199, 208, 0.5);
+    z-index: 1002;
+    backdrop-filter: blur(5px);
+  }
+
+  .overlay.active {
+    visibility: visible;
+    transform: scale(1);
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .modal-header {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .btn-wrapper {
+    display: flex;
+    gap: 1.2rem;
+  }
+
+  .closeModal {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 4rem;
+    font-weight: normal;
+  }
+
+  .modal__feature {
+    padding: 10px 15px;
+  }
+  .modal__dsc {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2.4rem;
   }
 }
