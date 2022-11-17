@@ -673,8 +673,12 @@
     flex-direction: row;
     align-items: flex-start;
     gap: 2.4rem;
-  }
-  #err_info {
-    color: yellow;
-  }
+  }  
+}
+
+#err_info {
+  color: yellow;
+  font-size: 18px;
+  padding-left: 2%;
+  text-align: center;
 }
