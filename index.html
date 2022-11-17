@@ -116,10 +116,7 @@
       <section class="section-works margin-section color" id="works">
         <div class="works grid grid--2-cols">
           <div class="section-img">
-            <img
-              src="images/project2.png"
-              alt="An image of the portfolio"
-            />
+            <img src="images/project2.png" alt="An image of the portfolio" />
           </div>
 
           <div class="portfolio-text">
@@ -140,12 +137,12 @@
             </ul>
 
             <button
-            type="button"
-            class="btn fw-500 fz-17 lh-24 clr-p-500 bg-white first-btn"
-            id="0"
-          >
-            See Project
-          </button>
+              type="button"
+              class="btn fw-500 fz-17 lh-24 clr-p-500 bg-white first-btn"
+              id="0"
+            >
+              See Project
+            </button>
           </div>
         </div>
       </section>
@@ -153,48 +150,43 @@
       <section class="section-works margin-section color">
         <div class="works grid grid--2-cols">
           <div class="section-img">
-            <img
-              src="images/project2.png"
-              alt="An image of the portfolio"
-            />
+            <img src="images/project2.png" alt="An image of the portfolio" />
           </div>
-       
-        <div class="portfolio-text">
-          <h2 class="heading-tertiary">Multi-post-stories</h2>
-          <ul class="portfolio-list">
-            <li class="name">facebook</li>
-            <li class="dev">Full Stack Dev</li>
-            <li class="year">2015</li>
-          </ul>
-          <p class="portfolio-info">
-            Experimental content creation feature that allows users to add to an
-            existing story over the course of a day without spamming their
-            friends.
-          </p>
-          <ul class="languages-list">
-            <li>html</li>
-            <li>Ruby on Rails</li>
-            <li>css</li>
-            <li>javascript</li>
-          </ul>
 
-          <button
-                  type="button"
-                  class="btn fw-500 fz-17 lh-24 clr-p-500 bg-white first-btn"
-                  id="1"
-                >
-                  See Project
-                </button>
+          <div class="portfolio-text">
+            <h2 class="heading-tertiary">Multi-post-stories</h2>
+            <ul class="portfolio-list">
+              <li class="name">facebook</li>
+              <li class="dev">Full Stack Dev</li>
+              <li class="year">2015</li>
+            </ul>
+            <p class="portfolio-info">
+              Experimental content creation feature that allows users to add to
+              an existing story over the course of a day without spamming their
+              friends.
+            </p>
+            <ul class="languages-list">
+              <li>html</li>
+              <li>Ruby on Rails</li>
+              <li>css</li>
+              <li>javascript</li>
+            </ul>
+
+            <button
+              type="button"
+              class="btn fw-500 fz-17 lh-24 clr-p-500 bg-white first-btn"
+              id="1"
+            >
+              See Project
+            </button>
+          </div>
         </div>
-        <div class="section-img"></div>
       </section>
+
       <section class="section-works margin-section color">
         <div class="works grid grid--2-cols">
           <div class="section-img">
-            <img
-              src="images/project3.png"
-              alt="An image of the portfolio"
-            />
+            <img src="images/project3.png" alt="An image of the portfolio" />
           </div>
 
           <div class="portfolio-text">
@@ -217,12 +209,12 @@
             </ul>
 
             <button
-                  type="button"
-                  class="btn fw-500 fz-17 lh-24 clr-p-500 bg-white first-btn"
-                  id="2"
-                >
-                  See Project
-                </button>
+              type="button"
+              class="btn fw-500 fz-17 lh-24 clr-p-500 bg-white first-btn"
+              id="2"
+            >
+              See Project
+            </button>
           </div>
         </div>
       </section>
@@ -230,10 +222,7 @@
       <section class="section-works margin-section color">
         <div class="works grid grid--2-cols">
           <div class="section-img">
-            <img
-              src="images/project4.png"
-              alt="An image of the portfolio"
-            />
+            <img src="images/project4.png" alt="An image of the portfolio" />
           </div>
           <div class="portfolio-text">
             <h2 class="heading-tertiary">uber navigation</h2>
@@ -254,12 +243,12 @@
             </ul>
 
             <button
-            type="button"
-            class="btn fw-500 fz-17 lh-24 clr-p-500 bg-white first-btn"
-            id="3"
-          >
-            See Project
-          </button>
+              type="button"
+              class="btn fw-500 fz-17 lh-24 clr-p-500 bg-white first-btn"
+              id="3"
+            >
+              See Project
+            </button>
           </div>
         </div>
       </section>
@@ -410,8 +399,10 @@
               love to help with it
             </p>
             <form
+              name="myForm"
               class="cta-form"
               action="https://formspree.io/f/mqkjyoyj"
+              onsubmit="return validateForm()"
               method="post"
             >
               <label for="full-name">
@@ -427,6 +418,7 @@
 
               <label for="email">
                 <input
+                  name="contact_email"
                   id="email"
                   type="email"
                   placeholder="example@gmail.com"
@@ -446,11 +438,25 @@
               <button type="submit" class="btn btn--contact">
                 Get in touch
               </button>
+              <label id="err_info"></label>
             </form>
           </div>
         </div>
       </footer>
-      
+
+      <script>
+        function containsUppercase(str) {
+          return /[A-Z]/.test(str);
+        }
+        function validateForm() {
+          let x = document.forms["myForm"]["contact_email"].value;
+          if (containsUppercase(x)) {
+            document.getElementById("err_info").innerHTML =
+              "Email should not contain a capital letter!";
+            return false;
+          }
+        }
+      </script>
     </main>
-  </body>  
+  </body>
 </html>
