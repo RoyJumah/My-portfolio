@@ -201,6 +201,10 @@
     width: 60%;
     margin: 0 9.6rem;
   }
+
+  #err_info {
+    color: yellow;
+  }
 }
 
 @media (min-width: 992px) {
@@ -670,4 +674,11 @@
     align-items: flex-start;
     gap: 2.4rem;
   }
+}
+
+#err_info {
+  color: yellow;
+  font-size: 18px;
+  padding-left: 2%;
+  text-align: center;
 }

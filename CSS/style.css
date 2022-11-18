@@ -25,6 +25,10 @@ main {
   display: grid;
 }
 
+#err_info {
+  color: yellow;
+}
+
 .container {
   margin: 0 2.45rem;
 }
