@@ -11,5 +11,5 @@ form.addEventListener('submit', (e) => {
     document.getElementById('err_info').innerHTML = 'Email should not contain a capital letter!';
     return false;
   }
-  return true;
+  return form.submit();
 });
