@@ -256,7 +256,9 @@
     font-weight: 700;
     text-decoration: none;
     color: #6070ff;
+
   }
+ 
 
   .main-nav-desktop {
     display: block;
@@ -382,7 +384,7 @@
   }
 
   .section-img {
-    overflow: hidden;
+    /* overflow: hidden; */
     border-radius: 24px;
   }
 
@@ -398,7 +400,9 @@
   }
 
   .section-img img:hover {
-    transform: scale(1.08);
+    transform: scale(1.02);
+    box-shadow: 0 2.4rem 4.8rem rgba(120, 147, 184, 0.178);
+    
   }
 
   .heading-tertiary {
@@ -451,13 +455,13 @@
     border-radius: 24px;
     margin: 9.6rem;
     transition: all 0.4s;
+    box-shadow: 0 2.4rem 4.8rem rgba(120, 147, 184, 0.178);
   }
 
   .section-works:hover {
     color: #fff;
     border: 2px solid #4053fc;
-    box-shadow: 0 2.4rem 4.8rem rgba(120, 147, 184, 0.178);
-    transform: translateY(-1.2rem);
+    /* transform: translateY(-1.2rem); */
   }
 
   /* ABOUT */
