@@ -30,6 +30,7 @@
     <script defer src="navigation.js"></script>
     <script defer src="projects.js"></script>
     <script defer src="validation.js"></script>
+    <script defer src="preserve-data.js"></script>
   </head>
 
   <body>
@@ -400,7 +401,7 @@
               love to help with it
             </p>
             <form
-            id="form"
+            id="myform"
               name="myForm"
               class="cta-form"
               action="https://formspree.io/f/mqkjyoyj"
@@ -433,12 +434,14 @@
                   placeholder="Write your message here"
                   maxlength="500"
                   required
+                  id="message"
                 ></textarea>
               </label>
 
-              <button type="submit" class="btn btn--contact">
+              <button type="submit" class="btn btn--contact" id ="note-submit">
                 Get in touch
               </button>
+              <ul id="notes"></ul>
               <label id="err_info"></label>
             </form>
           </div>

@@ -1,4 +1,4 @@
-const form = document.getElementById('form');
+const form = document.getElementById('myform');
 
 function containsUppercase(str) {
   return /[A-Z]/.test(str);
