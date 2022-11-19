@@ -256,9 +256,7 @@
     font-weight: 700;
     text-decoration: none;
     color: #6070ff;
-
   }
- 
 
   .main-nav-desktop {
     display: block;
@@ -402,7 +400,6 @@
   .section-img img:hover {
     transform: scale(1.02);
     box-shadow: 0 2.4rem 4.8rem rgba(120, 147, 184, 0.178);
-    
   }
 
   .heading-tertiary {
@@ -461,6 +458,7 @@
   .section-works:hover {
     color: #fff;
     border: 2px solid #4053fc;
+
     /* transform: translateY(-1.2rem); */
   }
 
