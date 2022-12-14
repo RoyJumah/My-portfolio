@@ -92,6 +92,15 @@ a {
   color: #333;
 }
 
+.hidden {
+  overflow: hidden;
+  margin: 0;
+  touch-action: none;
+  -ms-touch-action: none;
+  position: fixed;
+  height: 100%;
+}
+
 /* HERO SECTION */
 
 .section-hero {

@@ -5,7 +5,7 @@ const headerEl = document.querySelector('.header');
 
 btnNavEl.addEventListener('click', () => {
   headerEl.classList.toggle('nav-open');
-  // document.body.style.overflowY = "hidden";
+  document.body.classList.toggle('hidden');
 });
 
 // Smooth scrolling

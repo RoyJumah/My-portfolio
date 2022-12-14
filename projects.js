@@ -1,32 +1,32 @@
 const projects = [
   {
-    name: 'Topic',
-    feature: 'CANOPY',
-    background: 'Back End Dev',
-    year: '2015',
-    image: './images/project6.png',
+    name: 'Coachella Concert Showcase',
+    feature: 'Coachella Concert',
+    background: 'Front End Dev',
+    year: '2022',
+    image: './images/coachella-snapshot.png',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'The Coachella Concert Showcase is a simple project aimed to represent an annual concert in America. It has only two pages, the home page and the about page.',
     tool1: 'html',
     tool2: 'css',
     tool3: 'javascript',
-    linkLive: 'https://royjumah.github.io/My-portfolio',
-    linkSource: 'https://github.com/RoyJumah/My-portfolio',
+    linkLive: 'https://royjumah.github.io/Coachella-Capstone-project/',
+    linkSource: 'https://github.com/RoyJumah/Coachella-Capstone-project',
   },
 
   {
-    name: 'Multi-Post Stories',
-    feature: 'FACEBOOK',
-    background: 'Full Stack Dev',
-    year: '2015',
-    image: './images/project2.png',
+    name: 'Awesome Books List',
+    feature: 'Awesome Books',
+    background: 'Front End Dev',
+    year: '2022',
+    image: './images/awesome-books.png',
     description:
-      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+      'This is a project created using HTML, CSS and Javascript that enables a user to add and remove a book from a list',
     tool1: 'html',
     tool2: 'css',
     tool3: 'javascript',
-    linkLive: 'https://royjumah.github.io/My-portfolio',
-    linkSource: 'https://github.com/RoyJumah/My-portfolio',
+    linkLive: 'https://royjumah.github.io/Awesome-Books-ES6/#',
+    linkSource: 'https://github.com/RoyJumah/Awesome-Books-ES6',
   },
 
   {
